@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/NE_RR_dt_Testing.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

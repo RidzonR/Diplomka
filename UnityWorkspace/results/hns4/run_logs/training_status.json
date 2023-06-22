@@ -1,0 +1,29 @@
+{
+    "HNSdriver": {
+        "checkpoints": [
+            {
+                "steps": 136200,
+                "file_path": "results\\hns4\\HNSdriver\\HNSdriver-136200.onnx",
+                "reward": null,
+                "creation_time": 1668961129.3261068,
+                "auxillary_file_paths": [
+                    "results\\hns4\\HNSdriver\\HNSdriver-136200.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 136200,
+            "file_path": "results\\hns4\\HNSdriver.onnx",
+            "reward": null,
+            "creation_time": 1668961129.3261068,
+            "auxillary_file_paths": [
+                "results\\hns4\\HNSdriver\\HNSdriver-136200.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "CarDriverML": {
+        "checkpoints": [
+            {
+                "steps": 278169,
+                "file_path": "results\\TestMultiple\\CarDriverML\\CarDriverML-278169.onnx",
+                "reward": -1.0,
+                "creation_time": 1663603326.300607,
+                "auxillary_file_paths": [
+                    "results\\TestMultiple\\CarDriverML\\CarDriverML-278169.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 278169,
+            "file_path": "results\\TestMultiple\\CarDriverML.onnx",
+            "reward": -1.0,
+            "creation_time": 1663603326.300607,
+            "auxillary_file_paths": [
+                "results\\TestMultiple\\CarDriverML\\CarDriverML-278169.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

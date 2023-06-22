@@ -1,0 +1,65 @@
+{
+    "HNSdriver": {
+        "checkpoints": [
+            {
+                "steps": 8499981,
+                "file_path": "results\\hns13\\HNSdriver\\HNSdriver-8499981.onnx",
+                "reward": 153.95729836550626,
+                "creation_time": 1668976013.8289652,
+                "auxillary_file_paths": [
+                    "results\\hns13\\HNSdriver\\HNSdriver-8499981.pt"
+                ]
+            },
+            {
+                "steps": 8999911,
+                "file_path": "results\\hns13\\HNSdriver\\HNSdriver-8999911.onnx",
+                "reward": 172.021680087578,
+                "creation_time": 1668976358.8411083,
+                "auxillary_file_paths": [
+                    "results\\hns13\\HNSdriver\\HNSdriver-8999911.pt"
+                ]
+            },
+            {
+                "steps": 9499848,
+                "file_path": "results\\hns13\\HNSdriver\\HNSdriver-9499848.onnx",
+                "reward": 116.87478542327881,
+                "creation_time": 1668976706.0421462,
+                "auxillary_file_paths": [
+                    "results\\hns13\\HNSdriver\\HNSdriver-9499848.pt"
+                ]
+            },
+            {
+                "steps": 9999960,
+                "file_path": "results\\hns13\\HNSdriver\\HNSdriver-9999960.onnx",
+                "reward": 138.23787117004395,
+                "creation_time": 1668977050.477993,
+                "auxillary_file_paths": [
+                    "results\\hns13\\HNSdriver\\HNSdriver-9999960.pt"
+                ]
+            },
+            {
+                "steps": 10000209,
+                "file_path": "results\\hns13\\HNSdriver\\HNSdriver-10000209.onnx",
+                "reward": 146.5117630004883,
+                "creation_time": 1668977050.532841,
+                "auxillary_file_paths": [
+                    "results\\hns13\\HNSdriver\\HNSdriver-10000209.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000209,
+            "file_path": "results\\hns13\\HNSdriver.onnx",
+            "reward": 146.5117630004883,
+            "creation_time": 1668977050.532841,
+            "auxillary_file_paths": [
+                "results\\hns13\\HNSdriver\\HNSdriver-10000209.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

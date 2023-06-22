@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1668959317",
+        "python_version": "3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ridzo\\anaconda3\\envs\\Diplomka\\Scripts\\mlagents-learn --run-id=hns1",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1668959366"
+    },
+    "total": 49.3984314,
+    "count": 1,
+    "self": 0.015225000000000932,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09177800000000014,
+            "count": 1,
+            "self": 0.09177800000000014
+        },
+        "TrainerController.start_learning": {
+            "total": 49.2914284,
+            "count": 1,
+            "self": 0.0007905000000008044,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 49.2906276,
+                    "count": 1,
+                    "self": 49.2906276
+                },
+                "trainer_threads": {
+                    "total": 1.300000000981072e-06,
+                    "count": 1,
+                    "self": 1.300000000981072e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.999999998593466e-06,
+                    "count": 1,
+                    "self": 8.999999998593466e-06
+                }
+            }
+        }
+    }
+}

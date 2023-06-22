@@ -1,0 +1,42 @@
+esmini GIT REV: 0dca9c8
+esmini GIT TAG: v2.20.3
+esmini GIT BRANCH: tags/v2.20.3^0
+esmini BUILD VERSION: 2.20.3.build.2148
+Disable entity controllers
+Generated seed 3593649374
+Loading dt8.xosc (v1.0)
+OpenDRIVE: ./dt.xodr
+Scenegraph: ./dt.osgb
+unknown lane type: curb (road id=0)
+
+unknown lane type: curb (road id=0)
+
+unknown lane type: curb (road id=1)
+
+unknown lane type: curb (road id=1)
+
+unknown lane type: curb (road id=2)
+
+unknown lane type: curb (road id=2)
+
+unknown lane type: curb (road id=3)
+
+unknown lane type: curb (road id=3)
+
+unknown lane type: curb (road id=17)
+
+unknown lane type: curb (road id=26)
+
+unknown lane type: curb (road id=27)
+
+unknown lane type: curb (road id=34)
+
+0.000: Init Sedan RoutingAction standbyState -> startTransition -> runningState
+0.000: Init Sedan LongitudinalAction standbyState -> startTransition -> runningState
+0.000: Init Sedan LongitudinalAction runningState -> endTransition -> completeState
+0.020: Trigger /------------------------------------------------
+0.020: SimulationStart == true, 0.0200 > 0.00 edge: none
+0.020: Trigger  ------------------------------------------------/
+0.020: EmptyAct standbyState -> startTransition -> runningState
+3.659: Init Sedan RoutingAction runningState -> endTransition -> completeState
+Closing

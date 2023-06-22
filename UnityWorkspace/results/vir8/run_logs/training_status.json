@@ -1,0 +1,29 @@
+{
+    "VirML": {
+        "checkpoints": [
+            {
+                "steps": 63316,
+                "file_path": "results\\vir8\\VirML\\VirML-63316.onnx",
+                "reward": null,
+                "creation_time": 1670445011.9830527,
+                "auxillary_file_paths": [
+                    "results\\vir8\\VirML\\VirML-63316.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 63316,
+            "file_path": "results\\vir8\\VirML.onnx",
+            "reward": null,
+            "creation_time": 1670445011.9830527,
+            "auxillary_file_paths": [
+                "results\\vir8\\VirML\\VirML-63316.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

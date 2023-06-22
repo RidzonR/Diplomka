@@ -1,0 +1,65 @@
+{
+    "CarDriverML": {
+        "checkpoints": [
+            {
+                "steps": 8499513,
+                "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-8499513.onnx",
+                "reward": 0.6777778069178263,
+                "creation_time": 1663778343.537228,
+                "auxillary_file_paths": [
+                    "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-8499513.pt"
+                ]
+            },
+            {
+                "steps": 8999050,
+                "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-8999050.onnx",
+                "reward": 0.5500000193715096,
+                "creation_time": 1663778727.3056786,
+                "auxillary_file_paths": [
+                    "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-8999050.pt"
+                ]
+            },
+            {
+                "steps": 9499160,
+                "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-9499160.onnx",
+                "reward": 0.6300000369548797,
+                "creation_time": 1663779111.5158367,
+                "auxillary_file_paths": [
+                    "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-9499160.pt"
+                ]
+            },
+            {
+                "steps": 9999061,
+                "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-9999061.onnx",
+                "reward": null,
+                "creation_time": 1663779496.6449668,
+                "auxillary_file_paths": [
+                    "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-9999061.pt"
+                ]
+            },
+            {
+                "steps": 10000061,
+                "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-10000061.onnx",
+                "reward": 0.6000000238418579,
+                "creation_time": 1663779496.7124953,
+                "auxillary_file_paths": [
+                    "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-10000061.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000061,
+            "file_path": "results\\TestCarPathNoPunishment5\\CarDriverML.onnx",
+            "reward": 0.6000000238418579,
+            "creation_time": 1663779496.7124953,
+            "auxillary_file_paths": [
+                "results\\TestCarPathNoPunishment5\\CarDriverML\\CarDriverML-10000061.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

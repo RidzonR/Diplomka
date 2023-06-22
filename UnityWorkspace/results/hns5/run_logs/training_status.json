@@ -1,0 +1,38 @@
+{
+    "HNSdriver": {
+        "checkpoints": [
+            {
+                "steps": 499960,
+                "file_path": "results\\hns5\\HNSdriver\\HNSdriver-499960.onnx",
+                "reward": -16.15393022723772,
+                "creation_time": 1668961428.219502,
+                "auxillary_file_paths": [
+                    "results\\hns5\\HNSdriver\\HNSdriver-499960.pt"
+                ]
+            },
+            {
+                "steps": 500024,
+                "file_path": "results\\hns5\\HNSdriver\\HNSdriver-500024.onnx",
+                "reward": -16.15393022723772,
+                "creation_time": 1668961428.2594147,
+                "auxillary_file_paths": [
+                    "results\\hns5\\HNSdriver\\HNSdriver-500024.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500024,
+            "file_path": "results\\hns5\\HNSdriver.onnx",
+            "reward": -16.15393022723772,
+            "creation_time": 1668961428.2594147,
+            "auxillary_file_paths": [
+                "results\\hns5\\HNSdriver\\HNSdriver-500024.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

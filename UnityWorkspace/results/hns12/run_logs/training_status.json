@@ -1,0 +1,56 @@
+{
+    "HNSDriver1D": {
+        "checkpoints": [
+            {
+                "steps": 499637,
+                "file_path": "results\\hns12\\HNSDriver1D\\HNSDriver1D-499637.onnx",
+                "reward": 236.16378784179688,
+                "creation_time": 1668969510.4240928,
+                "auxillary_file_paths": [
+                    "results\\hns12\\HNSDriver1D\\HNSDriver1D-499637.pt"
+                ]
+            },
+            {
+                "steps": 999943,
+                "file_path": "results\\hns12\\HNSDriver1D\\HNSDriver1D-999943.onnx",
+                "reward": 226.19489052560596,
+                "creation_time": 1668969903.4932578,
+                "auxillary_file_paths": [
+                    "results\\hns12\\HNSDriver1D\\HNSDriver1D-999943.pt"
+                ]
+            },
+            {
+                "steps": 1499886,
+                "file_path": "results\\hns12\\HNSDriver1D\\HNSDriver1D-1499886.onnx",
+                "reward": 281.3921446188902,
+                "creation_time": 1668970296.6275582,
+                "auxillary_file_paths": [
+                    "results\\hns12\\HNSDriver1D\\HNSDriver1D-1499886.pt"
+                ]
+            },
+            {
+                "steps": 1621682,
+                "file_path": "results\\hns12\\HNSDriver1D\\HNSDriver1D-1621682.onnx",
+                "reward": 238.47715161828432,
+                "creation_time": 1668970455.427356,
+                "auxillary_file_paths": [
+                    "results\\hns12\\HNSDriver1D\\HNSDriver1D-1621682.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1621682,
+            "file_path": "results\\hns12\\HNSDriver1D.onnx",
+            "reward": 238.47715161828432,
+            "creation_time": 1668970455.427356,
+            "auxillary_file_paths": [
+                "results\\hns12\\HNSDriver1D\\HNSDriver1D-1621682.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

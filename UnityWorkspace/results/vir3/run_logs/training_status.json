@@ -1,0 +1,65 @@
+{
+    "VirML": {
+        "checkpoints": [
+            {
+                "steps": 6499887,
+                "file_path": "results\\vir3\\VirML\\VirML-6499887.onnx",
+                "reward": 192635.00625,
+                "creation_time": 1670430616.1338756,
+                "auxillary_file_paths": [
+                    "results\\vir3\\VirML\\VirML-6499887.pt"
+                ]
+            },
+            {
+                "steps": 6999838,
+                "file_path": "results\\vir3\\VirML\\VirML-6999838.onnx",
+                "reward": 192578.29,
+                "creation_time": 1670430924.7411072,
+                "auxillary_file_paths": [
+                    "results\\vir3\\VirML\\VirML-6999838.pt"
+                ]
+            },
+            {
+                "steps": 7499958,
+                "file_path": "results\\vir3\\VirML\\VirML-7499958.onnx",
+                "reward": 192521.91026785714,
+                "creation_time": 1670431233.8083932,
+                "auxillary_file_paths": [
+                    "results\\vir3\\VirML\\VirML-7499958.pt"
+                ]
+            },
+            {
+                "steps": 7999903,
+                "file_path": "results\\vir3\\VirML\\VirML-7999903.onnx",
+                "reward": 192508.39204545456,
+                "creation_time": 1670431543.5104795,
+                "auxillary_file_paths": [
+                    "results\\vir3\\VirML\\VirML-7999903.pt"
+                ]
+            },
+            {
+                "steps": 8232988,
+                "file_path": "results\\vir3\\VirML\\VirML-8232988.onnx",
+                "reward": 192504.986328125,
+                "creation_time": 1670431691.622945,
+                "auxillary_file_paths": [
+                    "results\\vir3\\VirML\\VirML-8232988.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8232988,
+            "file_path": "results\\vir3\\VirML.onnx",
+            "reward": 192504.986328125,
+            "creation_time": 1670431691.622945,
+            "auxillary_file_paths": [
+                "results\\vir3\\VirML\\VirML-8232988.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

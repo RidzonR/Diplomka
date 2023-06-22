@@ -1,0 +1,47 @@
+{
+    "CarDriverML": {
+        "checkpoints": [
+            {
+                "steps": 499943,
+                "file_path": "results\\RadarNav2\\CarDriverML\\CarDriverML-499943.onnx",
+                "reward": 0.07913043978421584,
+                "creation_time": 1664015329.812996,
+                "auxillary_file_paths": [
+                    "results\\RadarNav2\\CarDriverML\\CarDriverML-499943.pt"
+                ]
+            },
+            {
+                "steps": 999935,
+                "file_path": "results\\RadarNav2\\CarDriverML\\CarDriverML-999935.onnx",
+                "reward": 0.11153846764220642,
+                "creation_time": 1664015813.7578483,
+                "auxillary_file_paths": [
+                    "results\\RadarNav2\\CarDriverML\\CarDriverML-999935.pt"
+                ]
+            },
+            {
+                "steps": 1000007,
+                "file_path": "results\\RadarNav2\\CarDriverML\\CarDriverML-1000007.onnx",
+                "reward": 0.1113207607336764,
+                "creation_time": 1664015813.795718,
+                "auxillary_file_paths": [
+                    "results\\RadarNav2\\CarDriverML\\CarDriverML-1000007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000007,
+            "file_path": "results\\RadarNav2\\CarDriverML.onnx",
+            "reward": 0.1113207607336764,
+            "creation_time": 1664015813.795718,
+            "auxillary_file_paths": [
+                "results\\RadarNav2\\CarDriverML\\CarDriverML-1000007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

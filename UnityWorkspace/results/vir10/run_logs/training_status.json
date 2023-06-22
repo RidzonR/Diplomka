@@ -1,0 +1,29 @@
+{
+    "VirML": {
+        "checkpoints": [
+            {
+                "steps": 441232,
+                "file_path": "results\\vir10\\VirML\\VirML-441232.onnx",
+                "reward": 5735.272322371199,
+                "creation_time": 1670445869.8247304,
+                "auxillary_file_paths": [
+                    "results\\vir10\\VirML\\VirML-441232.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 441232,
+            "file_path": "results\\vir10\\VirML.onnx",
+            "reward": 5735.272322371199,
+            "creation_time": 1670445869.8247304,
+            "auxillary_file_paths": [
+                "results\\vir10\\VirML\\VirML-441232.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

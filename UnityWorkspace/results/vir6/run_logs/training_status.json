@@ -1,0 +1,47 @@
+{
+    "VirML": {
+        "checkpoints": [
+            {
+                "steps": 499913,
+                "file_path": "results\\vir6\\VirML\\VirML-499913.onnx",
+                "reward": 5989.78759765625,
+                "creation_time": 1670440843.0499036,
+                "auxillary_file_paths": [
+                    "results\\vir6\\VirML\\VirML-499913.pt"
+                ]
+            },
+            {
+                "steps": 999936,
+                "file_path": "results\\vir6\\VirML\\VirML-999936.onnx",
+                "reward": 6330.02326311384,
+                "creation_time": 1670441238.6746478,
+                "auxillary_file_paths": [
+                    "results\\vir6\\VirML\\VirML-999936.pt"
+                ]
+            },
+            {
+                "steps": 1331686,
+                "file_path": "results\\vir6\\VirML\\VirML-1331686.onnx",
+                "reward": 5969.918291645666,
+                "creation_time": 1670441499.1700613,
+                "auxillary_file_paths": [
+                    "results\\vir6\\VirML\\VirML-1331686.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1331686,
+            "file_path": "results\\vir6\\VirML.onnx",
+            "reward": 5969.918291645666,
+            "creation_time": 1670441499.1700613,
+            "auxillary_file_paths": [
+                "results\\vir6\\VirML\\VirML-1331686.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

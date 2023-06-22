@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSCENARIO>
+   <FileHeader revMajor="1"
+               revMinor="0"
+               date="2020-10-204T10:00:00"
+               description="Controller catalog"
+               author="esmini-team"/>
+	<Catalog name="ControllerCatalog">
+		<Controller name="ExternalController">
+			<ParameterDeclarations/>
+			<Properties>
+				<Property name="ghost" value="Ego" />
+			</Properties>
+		</Controller>
+		<Controller name="FollowGhostController">
+			<ParameterDeclarations/>
+			<Properties>
+				<Property name="ghost" value="Ego" />
+			</Properties>
+		</Controller>
+		<Controller name="SumoController">
+			<ParameterDeclarations/>
+            <Properties>
+				<File filepath="../sumo_inputs/e6mini.sumocfg"/>
+			</Properties>
+		</Controller>
+	</Catalog>
+</OpenSCENARIO>

@@ -9,7 +9,7 @@ dokončí zadefinované jazdné scenáre iba na základe senzorov, bez zásahu z
 
 Riadenie vozidla bude riešené pomocou neurónovej siete s plne prepojenou štruktúrou,
 natrénovanou pomocou algoritmu neuroevolúcie. Vstupom budú dáta zo senzorov,
-akcelerometer, radar a kamera. Neurónová sieť bude mať jednu skrytú vrstvu. Výstup bude
+akcelerometer a radar. Neurónová sieť bude mať jednu skrytú vrstvu. Výstup bude
 prírastok k cieľovej polohe natočenia volantu vozidla, hĺbky stlačenia plynového pedálu a
 hĺbky stlačenia brzdného pedálu.
 
